@@ -18,6 +18,8 @@
 } 
 
 body{
+    display: grid;
+    place-items: center;
     min-height: 100vh;
     background-color: var(--light-grayish-blue);
     color: var(--white);
@@ -135,13 +137,7 @@ p{
 /* MEDIA QUERIES */
 
 @media (min-width: 950px){
-
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
+    
     .card-container{
         grid-template-columns: repeat(4, 1fr);
     }
